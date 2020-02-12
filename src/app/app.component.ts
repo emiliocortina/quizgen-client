@@ -9,13 +9,6 @@ import {HttpClient} from '@angular/common/http';
 export class AppComponent {
   title = 'client';
 
-  constructor(private http: HttpClient) {
-
-    this.getHome().subscribe((res) => console.log(res));
-  }
-
-
-  public getHome() {
-    return this.http.get('http://localhost:5000/search/entities.json?label=Madrid');
+  constructor() {
   }
 }
