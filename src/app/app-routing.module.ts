@@ -8,7 +8,8 @@ import {GenerateComponent} from 'src/app/generate/generate.component';
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'search', component: SearchComponent},
-  {path: 'generate', component: GenerateComponent},
+  {path: 'generate/:id/:category', component: GenerateComponent},
+  {path: '**', component: HomeComponent},
 ];
 
 @NgModule({

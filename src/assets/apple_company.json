@@ -1,0 +1,1063 @@
+[
+  {
+    "correct_answer": {
+      "additionalInfo": [
+        {
+          "entityImage": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Cupertinocitycenter.jpg"
+          },
+          "entityType": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q515"
+          }
+        },
+        {
+          "entityImage": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Cupertinocitycenter.jpg"
+          },
+          "entityType": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1093829"
+          }
+        }
+      ],
+      "entity": {
+        "type": "uri",
+        "value": "http://www.wikidata.org/entity/Q189471"
+      },
+      "entityLabel": {
+        "type": "literal",
+        "value": "Cupertino",
+        "xml:lang": "en"
+      },
+      "entityType": {
+        "type": "uri",
+        "value": "http://www.wikidata.org/entity/Q515"
+      }
+    },
+    "distractors": [
+      {
+        "additionalInfo": [],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "country in North America",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "Canada",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "additionalInfo": [
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Africa%20satellite%20orthographic.jpg"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q5107"
+            }
+          }
+        ],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q15"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "continent on the Earth's northern and southern hemispheres",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "Africa",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "additionalInfo": [],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q17"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "constitutional monarchy in East Asia",
+          "xml:lang": "en"
+        },
+        "entityLabel": { "type": "literal", "value": "Japan", "xml:lang": "en" }
+      }
+    ],
+    "statement": "Where are Apple headquarters located?"
+  },
+  {
+    "correct_answer": {
+      "additionalInfo": [],
+      "entity": {
+        "type": "uri",
+        "value": "http://www.wikidata.org/entity/Q134161"
+      },
+      "entityLabel": {
+        "type": "literal",
+        "value": "joint-stock company",
+        "xml:lang": "en"
+      },
+      "entityType": {
+        "type": "uri",
+        "value": "http://www.wikidata.org/entity/Q1269299"
+      }
+    },
+    "distractors": [
+      {
+        "additionalInfo": [],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q4539"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "autonomous association of persons or organizations",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "cooperative",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "additionalInfo": [],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q31855"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "establishment endowed for doing research",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "research institute",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "additionalInfo": [],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q33506"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "institution that holds artifacts and other objects of scientific, artistic, cultural, historical, or other importance",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "museum",
+          "xml:lang": "en"
+        }
+      }
+    ],
+    "statement": "What is Apple legal form?"
+  },
+  {
+    "correct_answer": {
+      "additionalInfo": [],
+      "entity": {
+        "type": "uri",
+        "value": "http://www.wikidata.org/entity/Q56598901"
+      },
+      "entityLabel": {
+        "type": "literal",
+        "value": "Mobile phone industry",
+        "xml:lang": "en"
+      },
+      "entityType": {
+        "type": "uri",
+        "value": "http://www.wikidata.org/entity/Q268592"
+      }
+    },
+    "distractors": [
+      {
+        "additionalInfo": [
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/DNA%20Overview2%20crop.png"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q11862829"
+            }
+          }
+        ],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q336"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "study and knowledge of the natural world; the natural and social sciences",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "science",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "additionalInfo": [
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Blue%20stragglers%20in%20NGC%206397.jpg"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q2465832"
+            }
+          },
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Blue%20stragglers%20in%20NGC%206397.jpg"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q11862829"
+            }
+          }
+        ],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q333"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "natural science that deals with the study of celestial objects",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "astronomy",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "additionalInfo": [
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Braun%20HF%201.jpg"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q11033"
+            }
+          },
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Televison%20Hungarian%20ORION%201957.jpg"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q11033"
+            }
+          },
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Braun%20HF%201.jpg"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q121359"
+            }
+          },
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Televison%20Hungarian%20ORION%201957.jpg"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q121359"
+            }
+          },
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Braun%20HF%201.jpg"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q268592"
+            }
+          }
+        ],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q289"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "telecommunication medium for transmitting and receiving moving images",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "television",
+          "xml:lang": "en"
+        }
+      }
+    ],
+    "statement": "Which is the industry of Apple?"
+  },
+  {
+    "correct_answer": {
+      "additionalInfo": [
+        {
+          "entityImage": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Black-rock-hq.jpg"
+          },
+          "entityType": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q783794"
+          }
+        },
+        {
+          "entityImage": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Black-rock-hq.jpg"
+          },
+          "entityType": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q891723"
+          }
+        },
+        {
+          "entityImage": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Black-rock-hq.jpg"
+          },
+          "entityType": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q4830453"
+          }
+        }
+      ],
+      "entity": {
+        "type": "uri",
+        "value": "http://www.wikidata.org/entity/Q219635"
+      },
+      "entityLabel": {
+        "type": "literal",
+        "value": "BlackRock",
+        "xml:lang": "en"
+      },
+      "entityType": {
+        "type": "uri",
+        "value": "http://www.wikidata.org/entity/Q783794"
+      }
+    },
+    "distractors": [
+      {
+        "additionalInfo": [],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q28"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "republic in Central Europe",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "Hungary",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "additionalInfo": [],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q32"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "country in Western Europe",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "Luxembourg",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "additionalInfo": [],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q31"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "federal constitutional monarchy in Western Europe",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "Belgium",
+          "xml:lang": "en"
+        }
+      }
+    ],
+    "statement": "Who owns Apple?"
+  },
+  {
+    "correct_answer": {
+      "additionalInfo": [
+        {
+          "entityImage": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/NASDAQ.JPG"
+          },
+          "entityType": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q11691"
+          }
+        }
+      ],
+      "entity": {
+        "type": "uri",
+        "value": "http://www.wikidata.org/entity/Q82059"
+      },
+      "entityLabel": { "type": "literal", "value": "NASDAQ", "xml:lang": "en" },
+      "entityType": {
+        "type": "uri",
+        "value": "http://www.wikidata.org/entity/Q11691"
+      }
+    },
+    "distractors": [
+      {
+        "additionalInfo": [],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q13677"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "American stock exchange",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "New York Stock Exchange",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "additionalInfo": [],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q74662"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "Stock exchange located in  Luxembourg City, Luxembourg",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "Luxembourg Stock Exchange",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "additionalInfo": [],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q66320"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "trading done directly between two parties",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "over-the-counter trading",
+          "xml:lang": "en"
+        }
+      }
+    ],
+    "statement": "In which stock exchange is Apple?"
+  },
+  {
+    "correct_answer": {
+      "additionalInfo": [
+        {
+          "entityImage": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Los%20Altos%20entrance%20sign%202a.jpg"
+          },
+          "entityType": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q1093829"
+          }
+        }
+      ],
+      "entity": {
+        "type": "uri",
+        "value": "http://www.wikidata.org/entity/Q864124"
+      },
+      "entityLabel": {
+        "type": "literal",
+        "value": "Los Altos",
+        "xml:lang": "en"
+      },
+      "entityType": {
+        "type": "uri",
+        "value": "http://www.wikidata.org/entity/Q1093829"
+      }
+    },
+    "distractors": [
+      {
+        "additionalInfo": [],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q17"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "constitutional monarchy in East Asia",
+          "xml:lang": "en"
+        },
+        "entityLabel": { "type": "literal", "value": "Japan", "xml:lang": "en" }
+      },
+      {
+        "additionalInfo": [],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q16"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "country in North America",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "Canada",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "additionalInfo": [
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Scotland%20from%20satellite.jpg"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q3336843"
+            }
+          }
+        ],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q22"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "country in Northwest Europe, part of the United Kingdom",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "Scotland",
+          "xml:lang": "en"
+        }
+      }
+    ],
+    "statement": "Where was Apple created?"
+  },
+  {
+    "correct_answer": {
+      "additionalInfo": [],
+      "entity": {
+        "type": "uri",
+        "value": "http://www.wikidata.org/entity/Q1119662"
+      },
+      "entityLabel": {
+        "type": "literal",
+        "value": "Imagination Technologies",
+        "xml:lang": "en"
+      },
+      "entityType": {
+        "type": "uri",
+        "value": "http://www.wikidata.org/entity/Q4830453"
+      }
+    },
+    "distractors": [
+      {
+        "additionalInfo": [
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/TV%20Globo%20hq%202.jpg"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q1254874"
+            }
+          }
+        ],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q3587"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "Brazilian commercial television network",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "Rede Globo",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "additionalInfo": [
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/V%C3%A9nissieux%20-%20Matmut%20Stadium.JPG"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q483110"
+            }
+          }
+        ],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q9491"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "rugby union stadium",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "Matmut Stadium",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "additionalInfo": [
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/MegaUpload%20FBI-Banner.jpg"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q35127"
+            }
+          },
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/MegaUpload%20FBI-Banner.jpg"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q1343205"
+            }
+          },
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/MegaUpload%20FBI-Banner.jpg"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q4830453"
+            }
+          }
+        ],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q483"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "former Hong Kong\u2013based company",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "Megaupload",
+          "xml:lang": "en"
+        }
+      }
+    ],
+    "statement": "Which entity is owned by Apple?"
+  },
+  {
+    "correct_answer": {
+      "additionalInfo": [
+        {
+          "entityImage": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Tim%20Cook%202009%20cropped.jpg"
+          },
+          "entityType": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q5"
+          }
+        }
+      ],
+      "entity": {
+        "type": "uri",
+        "value": "http://www.wikidata.org/entity/Q265852"
+      },
+      "entityLabel": {
+        "type": "literal",
+        "value": "Tim Cook",
+        "xml:lang": "en"
+      },
+      "entityType": {
+        "type": "uri",
+        "value": "http://www.wikidata.org/entity/Q5"
+      }
+    },
+    "distractors": [
+      {
+        "additionalInfo": [
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Armin%20Veh%202012%202.jpg"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q5"
+            }
+          }
+        ],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q61392"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "German football player and manager",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "Armin Veh",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "additionalInfo": [
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Vicente%20Blasco%20Ib%C3%A1%C3%B1ez%20in%201919.jpg"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q5"
+            }
+          }
+        ],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q219646"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "Spanish author",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "Vicente Blasco Ib\u00e1\u00f1ez",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "additionalInfo": [
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Samuel%20Goldwyn%20001.jpg"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q5"
+            }
+          }
+        ],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q72579"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "Polish-American film producer",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "Samuel Goldwyn",
+          "xml:lang": "en"
+        }
+      }
+    ],
+    "statement": "Who is the CEO of Apple?"
+  },
+  {
+    "correct_answer": {
+      "additionalInfo": [
+        {
+          "entityImage": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Steve%20Wozniak%20by%20Gage%20Skidmore.jpg"
+          },
+          "entityType": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q5"
+          }
+        }
+      ],
+      "entity": {
+        "type": "uri",
+        "value": "http://www.wikidata.org/entity/Q483382"
+      },
+      "entityLabel": {
+        "type": "literal",
+        "value": "Steve Wozniak",
+        "xml:lang": "en"
+      },
+      "entityType": {
+        "type": "uri",
+        "value": "http://www.wikidata.org/entity/Q5"
+      }
+    },
+    "distractors": [
+      {
+        "additionalInfo": [
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Bourgelat%20m%C3%A9daillon.jpg"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q5"
+            }
+          }
+        ],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q559"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "French veterinary surgeon (1712-1779)",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "Claude Bourgelat",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "additionalInfo": [
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Carlos%20Iba%C3%B1ez%20del%20Campo%201927.jpg"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q5"
+            }
+          }
+        ],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q579"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "Chilean army officer and political figure",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "Carlos Ib\u00e1\u00f1ez del Campo",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "additionalInfo": [
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Nicolas%20Sarkozy%20%282015-10-29%29%2003%20%28cropped%29.jpg"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q5"
+            }
+          }
+        ],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q329"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "23rd President of the French Republic",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "Nicolas Sarkozy",
+          "xml:lang": "en"
+        }
+      }
+    ],
+    "statement": "Who is the founder of Apple?"
+  },
+  {
+    "correct_answer": {
+      "additionalInfo": [
+        {
+          "entityImage": {
+            "type": "uri",
+            "value": "http://commons.wikimedia.org/wiki/Special:FilePath/James%20A.%20Bell.jpg"
+          },
+          "entityType": {
+            "type": "uri",
+            "value": "http://www.wikidata.org/entity/Q5"
+          }
+        }
+      ],
+      "entity": {
+        "type": "uri",
+        "value": "http://www.wikidata.org/entity/Q6128032"
+      },
+      "entityLabel": {
+        "type": "literal",
+        "value": "James A. Bell",
+        "xml:lang": "en"
+      },
+      "entityType": {
+        "type": "uri",
+        "value": "http://www.wikidata.org/entity/Q5"
+      }
+    },
+    "distractors": [
+      {
+        "additionalInfo": [
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Peter%20Lilley.jpg"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q5"
+            }
+          }
+        ],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q19831"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "British politician",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "Peter Lilley",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "additionalInfo": [
+          {
+            "entityImage": {
+              "type": "uri",
+              "value": "http://commons.wikimedia.org/wiki/Special:FilePath/Milch.jpg"
+            },
+            "entityType": {
+              "type": "uri",
+              "value": "http://www.wikidata.org/entity/Q5"
+            }
+          }
+        ],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q57169"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "German general",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "Erhard Milch",
+          "xml:lang": "en"
+        }
+      },
+      {
+        "additionalInfo": [],
+        "entity": {
+          "type": "uri",
+          "value": "http://www.wikidata.org/entity/Q71186"
+        },
+        "entityDescription": {
+          "type": "literal",
+          "value": "German botanist",
+          "xml:lang": "en"
+        },
+        "entityLabel": {
+          "type": "literal",
+          "value": "Erwin Baur",
+          "xml:lang": "en"
+        }
+      }
+    ],
+    "statement": "Who is a member of the board of Apple?"
+  }
+]

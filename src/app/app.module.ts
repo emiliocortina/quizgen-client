@@ -8,13 +8,15 @@ import { GenerateComponent } from './generate/generate.component';
 import { HomeComponent } from './home/home.component';
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { QuestionComponent } from './question/question.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponent,
     GenerateComponent,
-    HomeComponent
+    HomeComponent,
+    QuestionComponent
   ],
   imports: [
     BrowserModule,

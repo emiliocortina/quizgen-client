@@ -1,1 +1,9 @@
-<p>generate works!</p>
+
+<div class="content">
+    <div class="questions">
+        <div *ngFor="let question of questions">
+            <app-question [question]="question"></app-question>
+        </div>
+    </div>
+</div>
+

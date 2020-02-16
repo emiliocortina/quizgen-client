@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {ApiService} from 'src/app/api.service';
+import {Router} from '@angular/router';
 
 @Component({
     selector: 'app-search',
@@ -23,9 +24,9 @@ export class SearchComponent implements OnInit {
 
     ];
     selectedEntity;
-    selectedCategory: any;
+    selectedCategory;
 
-    constructor(private api: ApiService) {
+    constructor(private api: ApiService, private router: Router) {
     }
 
     ngOnInit() {
@@ -49,7 +50,7 @@ export class SearchComponent implements OnInit {
     }
 
     generateQuestions() {
-        console.log(this.selectedEntity);
-        console.log(this.selectedCategory);
+        console.log(this.selectedCategory.label);
+        this.router.navigate(['/generate', this.selectedEntity, this.selectedCategory.id]);
     }
 }
