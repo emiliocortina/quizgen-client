@@ -6,10 +6,10 @@ import {GenerateComponent} from 'src/app/generate/generate.component';
 
 
 const routes: Routes = [
-  {path: '', component: HomeComponent},
+  {path: '', component: SearchComponent},
   {path: 'search', component: SearchComponent},
   {path: 'generate/:id/:category', component: GenerateComponent},
-  {path: '**', component: HomeComponent},
+  {path: '**', component: SearchComponent},
 ];
 
 @NgModule({

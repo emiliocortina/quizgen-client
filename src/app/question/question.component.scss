@@ -12,6 +12,16 @@
   }
 }
 
+.alert {
+  text-align: center;
+}
+
+.result {
+  width: 100%;
+  flex-direction: column;
+  align-content: center;
+}
+
 .answers {
   width: 100%;
   display: flex;

@@ -11,12 +11,13 @@ export class QuestionComponent implements OnInit {
     @Input() question: any;
     anwsers: Answer[];
     solution = false;
+    correct = false;
 
     constructor() {
     }
 
     ngOnInit(): void {
-        const correctAnswer = new Answer(this.question.correct_answer.entityLabel.value, true);
+        const correctAnswer = new Answer(this.question.correctAnswer.entityLabel.value, true);
         this.anwsers = [];
         this.anwsers.push(correctAnswer);
         for (const distractor of this.question.distractors) {
@@ -31,5 +32,12 @@ export class QuestionComponent implements OnInit {
             [a[i], a[j]] = [a[j], a[i]];
         }
         return a;
+    }
+
+    solveQuestion(answer: Answer) {
+        if (answer.isCorrect) {
+            this.correct = true;
+        }
+        this.solution = true;
     }
 }

@@ -5,5 +5,18 @@
             <app-question [question]="question"></app-question>
         </div>
     </div>
+    <div class="loadingStatus" *ngIf="loading">
+        <div class="text-primary">
+            Your questions are being generated.
+        </div>
+        <div class="spinner-border text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="text-primary">
+            This may take a while, please wait...
+        </div>
+
+    </div>
+
 </div>
 

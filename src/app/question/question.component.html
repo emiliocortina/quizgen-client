@@ -1,8 +1,16 @@
 <div class="questionCard">
     <h5>{{question['statement']}}</h5>
+    <div *ngIf="solution" class="result">
+        <span *ngIf="correct; else wrongBlock" class="badge badge-success">Success</span>
+        <ng-template #wrongBlock>
+            <span class="badge badge-danger">Wrong</span>
+        </ng-template>
+
+    </div>
+
     <div class="answers" [ngClass]="solution? 'solved' : ''">
         <div class="answer" [ngClass]="answer.isCorrect? 'correct' : 'incorrect'" *ngFor="let answer of anwsers"
-             (click)="solution = true">
+             (click)="solveQuestion(answer)">
             {{answer.text}}
         </div>
     </div>

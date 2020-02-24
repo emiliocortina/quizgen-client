@@ -10,6 +10,7 @@ import {ApiService} from 'src/app/api.service';
 export class GenerateComponent implements OnInit {
 
     questions;
+    loading = true;
 
     constructor(private route: ActivatedRoute, private router: Router, private api: ApiService) {
     }
@@ -19,8 +20,9 @@ export class GenerateComponent implements OnInit {
         const category = this.route.snapshot.paramMap.get('category');
 
         if (id && category) {
-            this.api.generateQuestions(id, category, 5).subscribe((res) =>{
+            this.api.generateQuestions(id, category, 5).subscribe((res) => {
                 this.questions = res;
+                this.loading = false;
             });
         } else {
             this.router.navigate(['']);
