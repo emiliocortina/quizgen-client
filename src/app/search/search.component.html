@@ -14,6 +14,13 @@
             </select>
         </div>
 
+        <div class="form-group">
+            <label for="category">Select questions language</label>
+            <select [(ngModel)]="selectedLanguage" class="form-control" id="language" name="language" required>
+                <option *ngFor="let lang of languages" [ngValue]="lang">{{lang.label}}</option>
+            </select>
+        </div>
+
         <div class="submitZone">
             <div *ngIf="loading; else submitBlock" class="spinner-border text-primary" role="status">
                 <span class="sr-only">Loading...</span>
@@ -38,7 +45,9 @@
                 </a>
 
                 <p class="card-text">{{entity['description']}}</p>
-                <button [disabled]="selectedCategory==null" [routerLink]="'/generate/'+entity['id']+'/'+selectedCategory" type="button" class="btn btn-primary">
+                <button [disabled]="selectedCategory==null"
+                        [routerLink]="'/generate/'+entity['id']+'/'+selectedCategory+'/'+selectedLanguage.id"
+                        type="button" class="btn btn-primary">
                     Generate questions
                 </button>
             </div>

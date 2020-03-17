@@ -26,6 +26,18 @@ export class SearchComponent implements OnInit {
     selectedEntity;
     selectedCategory;
 
+    languages = [
+        {
+            label: 'English',
+            id: 'en'
+        },
+        {
+            label: 'Español',
+            id: 'es'
+        }
+    ];
+    selectedLanguage = this.languages[0];
+
     constructor(private api: ApiService, private router: Router) {
     }
 
@@ -36,7 +48,7 @@ export class SearchComponent implements OnInit {
         this.loading = true;
         this.error = undefined;
         this.entities = [];
-        this.api.searchEntitiesByLabel(this.searchLabel).subscribe((res) => {
+        this.api.searchEntitiesByLabel(this.searchLabel, this.selectedLanguage.id).subscribe((res) => {
                 console.log(res);
                 this.loading = false;
                 this.entities = res;
@@ -51,6 +63,6 @@ export class SearchComponent implements OnInit {
 
     generateQuestions() {
         console.log(this.selectedCategory.label);
-        this.router.navigate(['/generate', this.selectedEntity, this.selectedCategory.id]);
+        this.router.navigate(['/generate', this.selectedEntity, this.selectedCategory.id, this.selectedLanguage.id]);
     }
 }

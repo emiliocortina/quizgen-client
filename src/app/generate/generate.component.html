@@ -1,6 +1,6 @@
-
 <div class="content">
     <div class="questions">
+        <img *ngIf="questions && questions[0]" [src]="questions[0].additionalInfo.entityImage.value" alt="">
         <div *ngFor="let question of questions">
             <app-question [question]="question"></app-question>
         </div>
@@ -15,8 +15,5 @@
         <div class="text-primary">
             This may take a while, please wait...
         </div>
-
     </div>
-
 </div>
-
